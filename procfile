@@ -1,1 +1,1 @@
-web: gunicorn student-assistant-web.wsgi --log-file -
+web: gunicorn pbl.wsgi --log-file -
