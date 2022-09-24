@@ -1,7 +1,7 @@
 
 from django.contrib import admin
 from django.http import HttpResponse
-from django.urls import path,include,url,serve,settings,static
+from django.urls import path,include
 
 
 
