@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'pbl.wsgi.application'
+WSGI_APPLICATION = 'student-assistant-web.wsgi.application'
 
 
 # Database
