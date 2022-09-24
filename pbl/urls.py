@@ -1,7 +1,7 @@
 
 from django.contrib import admin
 from django.http import HttpResponse
-from django.urls import path,include
+from django.urls import path,include,url,serve,settings,static
 
 
 
@@ -14,3 +14,4 @@ urlpatterns = [
     
     
 ]
+urlpatterns=urlpatterns+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
